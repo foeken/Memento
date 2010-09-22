@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MementoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MementoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* MementoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MementoViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* MementoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MementoViewController.m */; };
+		8B64C33B0FADFB1000DC0BC4 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C3380FADFB1000DC0BC4 /* background.png */; };
+		8B64C33C0FADFB1000DC0BC4 /* table_view_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C3390FADFB1000DC0BC4 /* table_view_background.png */; };
+		8B64C33D0FADFB1000DC0BC4 /* top_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C33A0FADFB1000DC0BC4 /* top_logo.png */; };
+		8B64C33F0FADFD7000DC0BC4 /* DefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C33E0FADFD7000DC0BC4 /* DefaultCell.xib */; };
+		8B64C3450FADFE0E00DC0BC4 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C3410FADFE0E00DC0BC4 /* green.png */; };
+		8B64C3460FADFE0E00DC0BC4 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C3420FADFE0E00DC0BC4 /* red.png */; };
+		8B64C3470FADFE0E00DC0BC4 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C3430FADFE0E00DC0BC4 /* orange.png */; };
+		8B64C3480FADFE0E00DC0BC4 /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C3440FADFE0E00DC0BC4 /* grey.png */; };
+		8B64C3EA0FAE098900DC0BC4 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3D60FAE098900DC0BC4 /* CXMLDocument.m */; };
+		8B64C3EB0FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3D80FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.m */; };
+		8B64C3EC0FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3DA0FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.m */; };
+		8B64C3ED0FAE098900DC0BC4 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3DC0FAE098900DC0BC4 /* CXMLElement.m */; };
+		8B64C3EE0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3DE0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.m */; };
+		8B64C3EF0FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3E00FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.m */; };
+		8B64C3F00FAE098900DC0BC4 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3E20FAE098900DC0BC4 /* CXMLNode.m */; };
+		8B64C3F10FAE098900DC0BC4 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3E40FAE098900DC0BC4 /* CXMLNode_CreationExtensions.m */; };
+		8B64C3F20FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3E60FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.m */; };
+		8B64C3F30FAE098900DC0BC4 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64C3E80FAE098900DC0BC4 /* CXMLNode_XPathExtensions.m */; };
+		8B64C4270FAE0AD400DC0BC4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C4260FAE0AD400DC0BC4 /* Settings.bundle */; };
+		8B64C5F60FAE32D000DC0BC4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C5F50FAE32D000DC0BC4 /* icon.png */; };
+		8B64C6D10FAE4B7500DC0BC4 /* background_without_key.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C6D00FAE4B7500DC0BC4 /* background_without_key.png */; };
+		8B64C6F70FAE567B00DC0BC4 /* icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B64C6F60FAE567B00DC0BC4 /* icon_small.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MementoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MementoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* MementoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MementoViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* MementoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MementoViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* MementoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MementoViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Memento_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memento_Prefix.pch; sourceTree = "<group>"; };
+		8B64C3380FADFB1000DC0BC4 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8B64C3390FADFB1000DC0BC4 /* table_view_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = table_view_background.png; sourceTree = "<group>"; };
+		8B64C33A0FADFB1000DC0BC4 /* top_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_logo.png; sourceTree = "<group>"; };
+		8B64C33E0FADFD7000DC0BC4 /* DefaultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultCell.xib; sourceTree = "<group>"; };
+		8B64C3410FADFE0E00DC0BC4 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		8B64C3420FADFE0E00DC0BC4 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		8B64C3430FADFE0E00DC0BC4 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		8B64C3440FADFE0E00DC0BC4 /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		8B64C3D50FAE098900DC0BC4 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		8B64C3D60FAE098900DC0BC4 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		8B64C3D70FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		8B64C3D80FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		8B64C3D90FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		8B64C3DA0FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		8B64C3DB0FAE098900DC0BC4 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		8B64C3DC0FAE098900DC0BC4 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		8B64C3DD0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		8B64C3DE0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		8B64C3DF0FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		8B64C3E00FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		8B64C3E10FAE098900DC0BC4 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		8B64C3E20FAE098900DC0BC4 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		8B64C3E30FAE098900DC0BC4 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		8B64C3E40FAE098900DC0BC4 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		8B64C3E50FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		8B64C3E60FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		8B64C3E70FAE098900DC0BC4 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		8B64C3E80FAE098900DC0BC4 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		8B64C3E90FAE098900DC0BC4 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		8B64C4260FAE0AD400DC0BC4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8B64C5F50FAE32D000DC0BC4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8B64C6D00FAE4B7500DC0BC4 /* background_without_key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_without_key.png; sourceTree = "<group>"; };
+		8B64C6F60FAE567B00DC0BC4 /* icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_small.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Memento-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Memento-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B64C3D40FAE096F00DC0BC4 /* TouchXML */,
+				1D3623240D0F684500981E51 /* MementoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MementoAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* MementoViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* MementoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Memento.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				8B64C6F60FAE567B00DC0BC4 /* icon_small.png */,
+				8B64C5F50FAE32D000DC0BC4 /* icon.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				8B64C4260FAE0AD400DC0BC4 /* Settings.bundle */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Memento_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B64C6D00FAE4B7500DC0BC4 /* background_without_key.png */,
+				8B64C3410FADFE0E00DC0BC4 /* green.png */,
+				8B64C3420FADFE0E00DC0BC4 /* red.png */,
+				8B64C3430FADFE0E00DC0BC4 /* orange.png */,
+				8B64C3440FADFE0E00DC0BC4 /* grey.png */,
+				8B64C3380FADFB1000DC0BC4 /* background.png */,
+				8B64C3390FADFB1000DC0BC4 /* table_view_background.png */,
+				8B64C33A0FADFB1000DC0BC4 /* top_logo.png */,
+				2899E5210DE3E06400AC0155 /* MementoViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Memento-Info.plist */,
+				8B64C33E0FADFD7000DC0BC4 /* DefaultCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B64C3D40FAE096F00DC0BC4 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				8B64C3D50FAE098900DC0BC4 /* CXMLDocument.h */,
+				8B64C3D60FAE098900DC0BC4 /* CXMLDocument.m */,
+				8B64C3D70FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.h */,
+				8B64C3D80FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.m */,
+				8B64C3D90FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.h */,
+				8B64C3DA0FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.m */,
+				8B64C3DB0FAE098900DC0BC4 /* CXMLElement.h */,
+				8B64C3DC0FAE098900DC0BC4 /* CXMLElement.m */,
+				8B64C3DD0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.h */,
+				8B64C3DE0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.m */,
+				8B64C3DF0FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.h */,
+				8B64C3E00FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.m */,
+				8B64C3E10FAE098900DC0BC4 /* CXMLNode.h */,
+				8B64C3E20FAE098900DC0BC4 /* CXMLNode.m */,
+				8B64C3E30FAE098900DC0BC4 /* CXMLNode_CreationExtensions.h */,
+				8B64C3E40FAE098900DC0BC4 /* CXMLNode_CreationExtensions.m */,
+				8B64C3E50FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.h */,
+				8B64C3E60FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.m */,
+				8B64C3E70FAE098900DC0BC4 /* CXMLNode_XPathExtensions.h */,
+				8B64C3E80FAE098900DC0BC4 /* CXMLNode_XPathExtensions.m */,
+				8B64C3E90FAE098900DC0BC4 /* TouchXML.h */,
+			);
+			name = TouchXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Memento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Memento" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memento;
+			productName = Memento;
+			productReference = 1D6058910D05DD3D006BFB54 /* Memento.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Memento" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Memento */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* MementoViewController.xib in Resources */,
+				8B64C33B0FADFB1000DC0BC4 /* background.png in Resources */,
+				8B64C33C0FADFB1000DC0BC4 /* table_view_background.png in Resources */,
+				8B64C33D0FADFB1000DC0BC4 /* top_logo.png in Resources */,
+				8B64C33F0FADFD7000DC0BC4 /* DefaultCell.xib in Resources */,
+				8B64C3450FADFE0E00DC0BC4 /* green.png in Resources */,
+				8B64C3460FADFE0E00DC0BC4 /* red.png in Resources */,
+				8B64C3470FADFE0E00DC0BC4 /* orange.png in Resources */,
+				8B64C3480FADFE0E00DC0BC4 /* grey.png in Resources */,
+				8B64C4270FAE0AD400DC0BC4 /* Settings.bundle in Resources */,
+				8B64C5F60FAE32D000DC0BC4 /* icon.png in Resources */,
+				8B64C6D10FAE4B7500DC0BC4 /* background_without_key.png in Resources */,
+				8B64C6F70FAE567B00DC0BC4 /* icon_small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MementoAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* MementoViewController.m in Sources */,
+				8B64C3EA0FAE098900DC0BC4 /* CXMLDocument.m in Sources */,
+				8B64C3EB0FAE098900DC0BC4 /* CXMLDocument_CreationExtensions.m in Sources */,
+				8B64C3EC0FAE098900DC0BC4 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				8B64C3ED0FAE098900DC0BC4 /* CXMLElement.m in Sources */,
+				8B64C3EE0FAE098900DC0BC4 /* CXMLElement_CreationExtensions.m in Sources */,
+				8B64C3EF0FAE098900DC0BC4 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				8B64C3F00FAE098900DC0BC4 /* CXMLNode.m in Sources */,
+				8B64C3F10FAE098900DC0BC4 /* CXMLNode_CreationExtensions.m in Sources */,
+				8B64C3F20FAE098900DC0BC4 /* CXMLNode_PrivateExtensions.m in Sources */,
+				8B64C3F30FAE098900DC0BC4 /* CXMLNode_XPathExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Memento_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Memento-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = Memento;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Memento_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Memento-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = Memento;
+			};
+			name = Release;
+		};
+		8B64C6ED0FAE55B800DC0BC4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andre Foeken";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "673804AF-FE54-4412-BC8B-9B423E8C70E3";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Distribution;
+		};
+		8B64C6EE0FAE55B800DC0BC4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Memento_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Memento-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = Memento;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				8B64C6EE0FAE55B800DC0BC4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				8B64C6ED0FAE55B800DC0BC4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
